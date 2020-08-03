@@ -5,5 +5,5 @@
   become: true
 
   roles:
-    - role: borgbackup
+    - role: uptime.borgbackup
       tags: ['backup']
